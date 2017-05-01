@@ -1,5 +1,5 @@
 
-# Created by https://www.gitignore.io/api/sbt,scala,intellij
+# Created by https://www.gitignore.io/api/vim,sbt,scala,intellij,playframework
 
 ### Intellij ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and Webstorm
@@ -63,6 +63,24 @@ fabric.properties
 # Sonarlint plugin
 .idea/sonarlint
 
+### PlayFramework ###
+# Ignore Play! working directory #
+bin/
+/db
+.eclipse
+/lib/
+/logs/
+/modules
+/project/project
+/project/target
+/target
+tmp/
+test-result
+server.pid
+*.eml
+/dist/
+.cache
+
 ### SBT ###
 # Simple Build Tool
 # http://www.scala-sbt.org/release/docs/Getting-Started/Directories.html#configuring-version-control
@@ -74,11 +92,24 @@ src_managed/
 project/boot/
 project/plugins/project/
 .history
-.cache
 .lib/
 
 ### Scala ###
 *.class
 *.log
 
-# End of https://www.gitignore.io/api/sbt,scala,intellij
+### Vim ###
+# swap
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-v][a-z]
+[._]sw[a-p]
+# session
+Session.vim
+# temporary
+.netrwhist
+*~
+# auto-generated tag files
+tags
+
+# End of https://www.gitignore.io/api/vim,sbt,scala,intellij,playframework
