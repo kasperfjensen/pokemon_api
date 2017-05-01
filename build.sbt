@@ -12,7 +12,8 @@ libraryDependencies ++= Seq(
   ws,
   specs2 % Test,
   "com.amazonaws" % "aws-java-sdk" % "1.11.46",
-  "com.lightbend.akka" %% "akka-stream-alpakka-sqs" % "0.7"
+  "com.lightbend.akka" %% "akka-stream-alpakka-sqs" % "0.7",
+  "com.lightbend.akka" %% "akka-stream-alpakka-s3" % "0.7"
 )
 
 unmanagedResourceDirectories in Test <+=  baseDirectory ( _ /"target/web/public/test" )  
