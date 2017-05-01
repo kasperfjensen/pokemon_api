@@ -12,9 +12,9 @@ libraryDependencies ++= Seq(
   ws,
   specs2 % Test,
   "com.amazonaws" % "aws-java-sdk" % "1.11.46",
-  "com.lightbend.akka" %% "akka-stream-alpakka-sqs" % "0.7+41-1235eabc"
+  "com.lightbend.akka" %% "akka-stream-alpakka-sqs" % "0.7"
 )
 
 unmanagedResourceDirectories in Test <+=  baseDirectory ( _ /"target/web/public/test" )  
 
-resolvers += "scalaz-bintray" at "https://dl.bintray.com/scalaz/releases"  
+resolvers += "scalaz-bintray" at "https://dl.bintray.com/scalaz/releases"
