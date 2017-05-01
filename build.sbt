@@ -6,7 +6,14 @@ lazy val `pokemon_api` = (project in file(".")).enablePlugins(PlayScala)
 
 scalaVersion := "2.11.7"
 
-libraryDependencies ++= Seq( jdbc , cache , ws   , specs2 % Test )
+libraryDependencies ++= Seq(
+  jdbc,
+  cache,
+  ws,
+  specs2 % Test,
+  "com.amazonaws" % "aws-java-sdk" % "1.11.46",
+  "com.lightbend.akka" %% "akka-stream-alpakka-sqs" % "0.7+41-1235eabc"
+)
 
 unmanagedResourceDirectories in Test <+=  baseDirectory ( _ /"target/web/public/test" )  
 

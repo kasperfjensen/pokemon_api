@@ -23,8 +23,7 @@ class WelcomeControllerSpec extends Specification {
       val home = route(FakeRequest(GET, "/")).get
 
       status(home) must equalTo(OK)
-      contentType(home) must beSome.which(_ == "text/html")
-      contentAsString(home) must contain ("Your new application is ready.")
+      contentAsString(home) must contain ("Welcome!")
     }
   }
 }

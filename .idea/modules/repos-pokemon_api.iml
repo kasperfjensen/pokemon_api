@@ -19,6 +19,9 @@
       <sourceFolder url="file://$MODULE_DIR$/../../target/web/public/test" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/../../test/resources" type="java-test-resource" />
       <excludeFolder url="file://$MODULE_DIR$/../../target" />
+      <excludeFolder url="file://$MODULE_DIR$/../../target/resolution-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/../../target/streams" />
+      <excludeFolder url="file://$MODULE_DIR$/../../target/web" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -90,10 +93,6 @@
     <orderEntry type="library" name="SBT: org.asynchttpclient:netty-codec-dns:2.0.11:jar" level="project" />
     <orderEntry type="library" name="SBT: org.asynchttpclient:async-http-client:2.0.11:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="SBT: org.apache.httpcomponents:httpmime:4.5.2:jar" level="project" />
-    <orderEntry type="library" scope="TEST" name="SBT: org.apache.httpcomponents:httpcore:4.4.4:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.apache.httpcomponents:httpcore:4.0.1:jar" level="project" />
-    <orderEntry type="library" scope="TEST" name="SBT: org.apache.httpcomponents:httpclient:4.5.2:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.apache.httpcomponents:httpclient:4.0.1:jar" level="project" />
     <orderEntry type="library" name="SBT: org.apache.commons:commons-lang3:3.4:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="SBT: org.apache.commons:commons-exec:1.3:jar" level="project" />
     <orderEntry type="library" name="SBT: oauth.signpost:signpost-core:1.2.1.2:jar" level="project" />
@@ -118,7 +117,6 @@
     <orderEntry type="library" name="SBT: io.netty:netty-buffer:4.0.41.Final:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="SBT: io.netty:netty:3.5.2.Final:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="SBT: commons-logging:commons-logging:1.2:jar" level="project" />
-    <orderEntry type="library" name="SBT: commons-logging:commons-logging:1.1.1:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="SBT: commons-io:commons-io:2.4:jar" level="project" />
     <orderEntry type="library" name="SBT: commons-codec:commons-codec:1.10:jar" level="project" />
     <orderEntry type="library" name="SBT: com.zaxxer:HikariCP:2.5.1:jar" level="project" />
@@ -166,5 +164,84 @@
     <orderEntry type="library" name="SBT: ch.qos.logback:logback-core:1.1.7:jar" level="project" />
     <orderEntry type="library" name="SBT: ch.qos.logback:logback-classic:1.1.7:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="SBT: cglib:cglib-nodep:2.1_3:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-acm:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-api-gateway:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-applicationautoscaling:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-autoscaling:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-budgets:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-cloudformation:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-cloudfront:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-cloudhsm:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-cloudsearch:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-cloudtrail:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-cloudwatch:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-cloudwatchmetrics:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-codecommit:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-codedeploy:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-codepipeline:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-cognitoidentity:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-cognitoidp:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-cognitosync:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-config:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-core:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-datapipeline:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-devicefarm:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-directconnect:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-directory:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-discovery:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-dms:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-dynamodb:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-ec2:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-ecr:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-ecs:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-efs:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-elasticache:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-elasticbeanstalk:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-elasticloadbalancing:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-elasticloadbalancingv2:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-elasticsearch:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-elastictranscoder:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-emr:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-events:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-gamelift:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-glacier:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-iam:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-importexport:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-inspector:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-iot:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-kinesis:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-kms:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-lambda:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-logs:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-machinelearning:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-marketplacecommerceanalytics:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-marketplacemeteringservice:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-models:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-opsworks:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-rds:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-redshift:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-route53:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-s3:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-servicecatalog:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-ses:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-simpledb:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-simpleworkflow:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-snowball:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-sns:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-sqs:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-ssm:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-storagegateway:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-sts:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-support:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-swf-libraries:1.11.22:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-waf:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:aws-java-sdk-workspaces:1.11.46:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.amazonaws:jmespath-java:1.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.6.6:jar" level="project" />
+    <orderEntry type="library" name="SBT: commons-logging:commons-logging:1.1.3:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.httpcomponents:httpclient:4.5.2:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.httpcomponents:httpcore:4.4.4:jar" level="project" />
+    <orderEntry type="library" name="SBT: software.amazon.ion:ion-java:1.0.1:jar" level="project" />
   </component>
 </module>
