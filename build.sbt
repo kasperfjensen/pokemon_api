@@ -1,6 +1,6 @@
 name := "pokemon_api"
 
-version := "1.0"
+version := "1.0-SNAPSHOT"
 
 lazy val `pokemon_api` = (project in file(".")).enablePlugins(PlayScala)
 
