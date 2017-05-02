@@ -14,7 +14,7 @@ import play.api.test.Helpers._
 class WelcomeControllerSpec extends Specification {
 
   "Application" should {
-    
+
     "render the index page" in new WithApplication{
       val home = route(FakeRequest(GET, "/")).get
 
