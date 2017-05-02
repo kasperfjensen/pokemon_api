@@ -14,11 +14,7 @@ import play.api.test.Helpers._
 class WelcomeControllerSpec extends Specification {
 
   "Application" should {
-
-    "send 404 on a bad request" in new WithApplication{
-      route(FakeRequest(GET, "/boum")) must beNone
-    }
-
+    
     "render the index page" in new WithApplication{
       val home = route(FakeRequest(GET, "/")).get
 
